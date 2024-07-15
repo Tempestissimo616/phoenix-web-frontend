@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { getAllUsers } from '../services/UserService';
+import { getAllUsers } from '../../services/UserService';
 import { Box, Pagination, Typography } from '@mui/material';
-import UserTablePagination, { UserTable } from './UserTableComponents';
+import UserTablePagination, { UserTable } from './PaginationComponent';
 
 export const ListUserComponent = () => {
   // user list data
